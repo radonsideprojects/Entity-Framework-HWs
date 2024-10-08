@@ -14,7 +14,7 @@ namespace ConsoleApp2
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"workstation id=itstepstuff.mssql.somee.com;packet size=4096;user id=toxidworm_SQLLogin_1;pwd=7zfjhyp82o;data source=itstepstuff.mssql.somee.com;persist security info=False;initial catalog=itstepstuff;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
